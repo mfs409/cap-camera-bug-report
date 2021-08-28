@@ -7,7 +7,7 @@ Initial information about the bug, and the associated bug report, can be found a
 
 * <https://github.com/ionic-team/capacitor-plugins/issues/572>
 * <https://forum.ionicframework.com/t/android-10-camera-plugin-issues/214294>
-* 
+
 The problem only arises when "Don't keep activities" is checked.  When it is
 checked (or when the device decides not to keep an activity), the main app
 closes when the camera opens.  When the camera returns, an `Intent` fails to
@@ -47,7 +47,7 @@ npx cap open android
 
 To configure the device, be sure to check the "Don't keep activities" option in
 the Developer Options menu.
-
+https://forum.ionicframework.com/t/android-10-camera-plugin-issues/214294
 To launch the app on the device, connect it, wait for Android Studio to
 recognize it, and then click `Run` (or press `shift-F10`).
 
@@ -63,7 +63,7 @@ image does not appear in the Gallery.
 Second, in the LogCat (filtering on `CAPTEST`), there is no evidence of
 `appRestoredResult` events:
 
-```text
+```texthttps://forum.ionicframework.com/t/android-10-camera-plugin-issues/214294
 2021-08-28 09:38:11.635 29718-29718/? I/Capacitor/Console: File: http://localhost/bundle.js - Line 2 - Msg: CAPTEST: App state changed. Is active? true
 2021-08-28 09:38:13.943 29718-29718/? I/Capacitor/Console: File: http://localhost/bundle.js - Line 2 - Msg: CAPTEST: App state changed. Is active? true
 2021-08-28 09:38:17.845 29718-29718/? I/Capacitor/Console: File: http://localhost/bundle.js - Line 2 - Msg: CAPTEST: App state changed. Is active? false
