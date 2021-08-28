@@ -3,6 +3,11 @@
 The purpose of this repository is to provide some shareable code for debugging
 an issue I've been observing with the Capacitor Camera Plugin on Android.
 
+Initial information about the bug, and the associated bug report, can be found at:
+
+* <https://github.com/ionic-team/capacitor-plugins/issues/572>
+* <https://forum.ionicframework.com/t/android-10-camera-plugin-issues/214294>
+* 
 The problem only arises when "Don't keep activities" is checked.  When it is
 checked (or when the device decides not to keep an activity), the main app
 closes when the camera opens.  When the camera returns, an `Intent` fails to
