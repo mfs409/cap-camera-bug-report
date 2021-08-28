@@ -1,0 +1,13 @@
+{
+	"appId": "com.example.capacitor.camera.test",
+	"appName": "andriod",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "dist",
+	"plugins": {
+		"SplashScreen": {
+			"launchAutoHide": false
+		}
+	},
+	"cordova": {}
+}
