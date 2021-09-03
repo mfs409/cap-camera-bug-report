@@ -1,5 +1,7 @@
 # Test Code for Capacitor Camera
 
+**Update 3 Septempber 2021: This bug has been fixed.  See <https://github.com/ionic-team/capacitor/pull/5004>**
+
 The purpose of this repository is to provide some shareable code for debugging
 an issue I've been observing with the Capacitor Camera Plugin on Android.
 
